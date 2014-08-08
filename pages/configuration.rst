@@ -146,6 +146,10 @@ If you want to use PayPal Sandbox for testing, you switch "Sandbox" option to "Y
 
 If you want to accept real transactions, you set "Sandbox" to "No" and enter your PayPal's info into "API Username", "API Password", "API Signature" fields.
 
+You need to select the currency that is used in your donations in "Currency" option. You only can select the currency that PayPal's supported. Please note that your PayPal account must also support the selected currency.
+
+With "Locale" option, you can select the language of PayPal's transaction page. If your site is a multilanguage site, you can use the Joomla!'s' locale that donor uses. For example, if your site is in English and French, donor views your site in French and decides to donate, French is the locale of PayPal's donation page after donor is taken to PayPal. If your site is only in 1 language, you should choose another option in the list.
+
 Please remember to enable the plugin.
 
 Create menu item
